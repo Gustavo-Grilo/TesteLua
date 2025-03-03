@@ -1,8 +1,10 @@
-local var1 = 5
-local var2 = 5
+local var1 = 10
+local var2 = 10
 
--- == significa equivalência
-local exp = var1 == var2 --true
+-- (==) significa igual a //// (~=) diferente de 
+-- (<) menor que //// (>) maior que
+-- (<=) menor ou igual que //// (>=) maior ou igual que
+local exp = var1 >= var2 --true
 
 -- adicionando comentario
-print(exp)
+print(exp) --valor booleano
